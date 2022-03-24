@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+<!-- <com.airbnb.lottie.LottieAnimationView-->
+<!--     android:id="@+id/animationView"-->
+<!--     app:lottie_rawRes="@raw/love"-->
+<!--     android:layout_width="wrap_content"-->
+<!--     android:layout_height="wrap_content"-->
+<!--     app:lottie_url="REPLACE_JSON_URL"-->
+<!--     app:lottie_autoPlay="true"-->
+<!--     android:layout_gravity="center"-->
+<!--     android:layout_marginBottom="300dp"-->
+<!--     app:lottie_loop="true"/>-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/name1"
+        android:background="@drawable/bg_edit"
+        android:textColor="#545757"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/riyadh_hossain" />
+
+     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/name2"
+         android:textSize="18sp"
+         android:textAllCaps="false"
+        android:background="@drawable/bg_edit"
+        android:textColor="#545757"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/riyadh_hossain" />
+
+     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/name3"
+         android:textSize="18sp"
+         android:textAllCaps="false"
+        android:background="@drawable/bg_edit"
+        android:textColor="#545757"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/riyadh_hossain" />
+
+     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/name4"
+         android:textSize="18sp"
+         android:textAllCaps="false"
+        android:background="@drawable/bg_edit"
+        android:textColor="#545757"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/riyadh_hossain" />
+
+     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/name5"
+         android:textSize="18sp"
+         android:textAllCaps="false"
+        android:background="@drawable/bg_edit"
+        android:textColor="#545757"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/riyadh_hossain" />
+
+     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/name6"
+         android:textSize="18sp"
+         android:textAllCaps="false"
+        android:background="@drawable/bg_edit"
+        android:textColor="#545757"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/riyadh_hossain" />
+
+
+
+
+
+</LinearLayout>

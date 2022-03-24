@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationCar"
+        app:lottie_rawRes="@raw/car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_url="REPLACE_JSON_URL"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_below="@id/animationCar"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageview"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!--To start the blink animation of the image-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/bg_edit"
+                android:textColor="#545757"
+                android:id="@+id/BTNblink"
+                style="@style/TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="@string/blink"
+                 />
+
+            <!--To start the rotate animation of the image-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/bg_edit"
+                android:textColor="#545757"
+                android:id="@+id/BTNrotate"
+                style="@style/TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="@string/roted"
+                 />
+
+            <!--To start the fading animation of the image-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/bg_edit"
+                android:textColor="#545757"
+                android:id="@+id/BTNfade"
+                style="@style/TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="@string/fade"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear1"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!--To start the move animation of the image-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/bg_edit"
+                android:textColor="#545757"
+                android:id="@+id/BTNmove"
+                style="@style/TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="@string/move"
+                />
+
+            <!--To start the slide animation of the image-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/bg_edit"
+                android:textColor="#545757"
+                android:id="@+id/BTNslide"
+                style="@style/TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="@string/slide"
+                />
+
+            <!--To start the zoom animation of the image-->
+            <androidx.appcompat.widget.AppCompatButton
+                android:background="@drawable/bg_edit"
+                android:textColor="#545757"
+                android:id="@+id/BTNzoom"
+                style="@style/TextAppearance.AppCompat.Widget.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="@string/zoom"
+                 />
+
+        </LinearLayout>
+
+        <!--To stop the animation of the image-->
+            <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/bg_edit"
+            android:textColor="#545757"
+            android:id="@+id/BTNstop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/stop_animation" />
+
+          <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/bg_edit"
+            android:textColor="#545757"
+            android:id="@+id/BTNsecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BTNstop"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/second" />
+
+
+    </RelativeLayout>

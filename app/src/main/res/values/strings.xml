@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AnimationRiyadh</string>
+
+    <string name="blink">Blink</string>
+    <string name="roted">Roted</string>
+    <string name="fade">Fade</string>
+    <string name="move">Move</string>
+    <string name="slide">Slide</string>
+    <string name="zoom">Zoom</string>
+    <string name="stop_animation">Stop Animation</string>
+    <string name="course_rating">Course Rating</string>
+    <string name="course_name">Course Name</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="riyadh_hossain">Riyadh Hossain</string>
+
+    <string name="text1">Output:
+        You can observe that when the user click on OpenSecondActivity button and OpenThirdAcivity button then both button open activity in different animation.
+        When the user is at Third Activity and press the back button default animation get invoked whereas when the user is at Second activity and press back button our defined animation get invoked.
+    </string>
+
+</resources>
